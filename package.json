@@ -1,0 +1,28 @@
+{
+  "name": "koa-tx-pg",
+  "version": "0.0.0",
+  "description": "Koa middleware to get you a Transactional Postgres client.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/xjodoin/koa-tx-pg.git"
+  },
+  "keywords": [
+    "koa",
+    "middleware",
+    "postgresql",
+    "transactionnal"
+  ],
+  "author": "Xavier Jodoin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xjodoin/koa-tx-pg/issues"
+  },
+  "homepage": "https://github.com/xjodoin/koa-tx-pg",
+  "dependencies": {
+    "co-pg": "~1.2.3"
+  }
+}
